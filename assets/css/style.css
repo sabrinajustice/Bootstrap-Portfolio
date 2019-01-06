@@ -1,0 +1,382 @@
+
+header {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 50;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #cccccc;
+    background-color: #ffffff;
+}
+
+.wrapper {
+    margin-top: 50;
+    width: 960px;
+}
+
+nav{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15pt;
+    margin-top: -75px;
+    float: right;
+    padding: 30px;
+    
+}
+
+#name-box {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: -40px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 25pt;
+    width: 80%;
+    background-color: #4aaaaf;
+    float: left;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #777777;
+    font-weight: lighter;
+}
+
+.gallery {
+    /* width: 960px; */
+    background-color: #ffffff;
+    height: 500px;
+    position: relative;
+    top: 30px;
+}
+
+/* The following styles are specific to the portfolio page */
+.thumbnail {
+    position: relative;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: all .8s ease;
+}
+/* Make thumbnail larger when hovered. */
+.thumbnail:hover {
+    transform: scale(1.1);
+}
+/* Maintains aspect ratio of image but does not allow image to be any wider than set amount of pixels. */
+.thumbnail img {
+    /* max-width: 270px; */
+    max-width: 100%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+/* The label on the image. */
+.label {
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    height: 60px;
+    line-height: 60px;
+    width: calc(100% - 30px);
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    background-color: rgba(74, 170, 165, .7);
+}
+
+body {
+    background-image: url(../images/spiration-light.png);
+    color: #cccccc;
+}
+
+footer {
+   
+    position: fixed;
+    top: -10;
+    left: 0;
+    bottom: 0;
+    border-color: #4aaaaf;
+    border-width: 5px;
+    background-color: #666666;
+    width: 100%;
+    height: 30px;
+}
+
+#footer-content {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border-color: #4aaaaf;
+    border-width: 5px;
+    background-color: #666666;
+    text-align: center;
+    font-size: 5.5pt;
+    width: 100%; 
+}
+
+h1 {
+    color: #4aaaaf;
+    padding: 10px;   
+    font-weight: bold;
+font-size: 18pt;
+}
+
+h2 {
+ color: #4aaaaf;
+ padding: 10px;   
+ font-weight: bold;
+ font-size: 14.5pt;
+}
+
+img {
+    padding: 20px;
+    float: left;
+}
+
+#hr-line {
+    margin: auto;
+    width: 98%;
+    height: 2px;
+    background-color: #cccccc;
+    
+}
+
+
+
+#work1 {
+    
+    height: 180px;
+    width: 250px;
+    background-image: url(../images/app1a.png);
+    margin-top: 1%;
+    margin-left: 1%;
+    float: left;
+}
+
+#work2 {
+    
+    
+    height: 180px;
+    width: 250px;
+    background-image: url(../images/app2a.png);
+    margin-top: 1%;
+    margin-left: 1%;
+    float: left;
+}
+
+#work3 {
+    
+    height: 180px;
+    width: 250px;
+    background-image: url(../images/app3a.png);
+    margin-top: 1%;
+    margin-left: 1%;
+    float: left;
+    
+}
+
+#work4 {
+    
+    height: 180px;
+    width: 250px;
+    background-image: url(../images/app4a.png);
+    margin-top: 1%;
+    margin-left: 1%;
+    float: left;
+    clear: left;
+}
+
+#work5 {
+    
+    height: 180px;
+    width: 250px;
+    background-image: url(../images/app5a.png);
+    margin-top: 1%;
+    margin-left: 1%;
+    float: left;
+
+}
+
+#work6 {
+    
+    height: 180px;
+    width: 250px;
+    background-image: url(../images/app6a.png);
+    margin-top: 1%;
+    margin-left: 1%;
+    float: left;
+   
+}
+
+#banner1 {
+    color: #ffffff;
+    font-size: 11pt;
+    text-align: center;
+    position: relative;
+    top: 185px;
+    background-color: #4aaaaf;
+    height: 35px;
+}
+
+#banner2 {
+    color: #ffffff;
+    font-size: 11pt;
+    text-align: center;
+    position: relative;
+    top: 185px;
+    background-color: #4aaaaf;
+    height: 35px;
+}
+
+#banner3 {
+    color: #ffffff;
+    font-size: 11pt;
+    text-align: center;
+    position: relative;
+    top: 185px;
+    background-color: #4aaaaf;
+    height: 35px;
+}
+
+#banner4 {
+    color: #ffffff;
+    font-size: 11pt;
+    text-align: center;
+    position: relative;
+    top: 185px;
+    background-color: #4aaaaf;
+    height: 35px;
+}
+
+#banner5 {
+    color: #ffffff;
+    font-size: 11pt;
+    text-align: center;
+    position: relative;
+    top: 185px;
+    background-color: #4aaaaf;
+    height: 35px;
+}
+
+#banner6 {
+    color: #ffffff;
+    font-size: 11pt;
+    text-align: center;
+    position: relative;
+    top: 185px;
+    background-color: #4aaaaf;
+    height: 35px;
+}
+
+#bc-1 {
+    position: relative;
+    top: 10px;
+}
+
+#bc-2 {
+    position: relative;
+    top: 10px;
+}
+
+#bc-3 {
+    position: relative;
+    top: 10px;
+}
+
+#bc-4 {
+    position: relative;
+    top: 10px;
+}
+
+#bc-5 {
+    position: relative;
+    top: 10px;
+}
+
+.content-box {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #ffffff;
+    height: 450px;
+    position: relative;
+    top: 10px;
+    line-height: 30px;
+    float: left;
+  width: 100%;
+  max-width: 650px;
+  
+  margin: 0 0 40px;
+  background: #fff;
+  
+
+}
+
+#title-box {
+    background-color: #ffffff;
+    
+    position: relative;
+    top: 10px;
+
+}
+
+.contact-box {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #777777;
+    background-color: #ffffff;
+    height: 450px;
+    position: relative;
+    top: 30px; 
+}
+
+input {
+    width: 100%;
+    margin-top: 10px;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    position: relative;
+    top: 15px;
+}
+
+#name {
+    margin-top: 10px;
+}
+
+.sidebar {
+  font-family: 'Roboto Condensed', sans-serif;
+  clear: right;
+  float: right;
+  max-width: 25%;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+ }
+
+
+::placeholder {
+    color: #cccccc
+}
+
+#submit {
+    color: #ffffff;
+    background-color: #4aaaaf;
+    width: 70px;
+    height: 30px;
+}
+
+textarea {
+   width: 100%;
+   margin-top: 10px;
+   border-color: #cccccc;
+}
+
+a {
+    color: #777777;
+    text-decoration: none;
+}
+
